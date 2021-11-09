@@ -1,7 +1,7 @@
 ---
 title: Second Year in University
-date: '2021-11-10T12:00:00.00Z'
-description: 'Dolor inventore quasi necessitatibus odio eaque doloribus'
+date: '2021-11-10T12:02:00.00Z'
+description: 'Reflections in the second year in university'
 ---
 
 ## Lorem ipsum dolor sit amet consectetur adipisicing elit

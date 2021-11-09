@@ -1,7 +1,7 @@
 ---
 title: First Year in University
-date: '2021-11-10T12:00:00.00Z'
-description: 'Ratione dolore sequi in animi obcaecati incidunt reprehenderit illo repellat'
+date: '2021-11-10T12:01:00.00Z'
+description: 'Reflections in the first year in university'
 ---
 
 ## Lorem ipsum dolor sit amet consectetur adipisicing elit

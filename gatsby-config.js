@@ -22,7 +22,7 @@ module.exports = {
         name: 'ePocket',
         description:
           'A personal finance management web application',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: 'https://nusrynizam.github.io/epocket/',
       },
       {
         name: 'ChromeExtensionKit',
