@@ -16,6 +16,7 @@ module.exports = {
     linkedin: `https://www.linkedin.com/in/nusrynizam/`,
     // Content of the About Me section
     about: `As early in my childhood, I remember fiddling with computers. Since then, I have learned a lot about computers despite the formal education. As soon as I finished school, I decided to pursue Information Technology as my major. I enjoyed learning more about topics and areas I did not know much about, specially programming and graphic designing. I enjoy self-learning. Over the course, I came to understand that the computers had much more to do with the world today than in the past. This motivated me to pursue in a never ending curiosity to explore the world of computers and programming.`,
+    profile: `Creative designer & web developer who stands out. I’ve got a unique mix of creativity, time management, problem solving and technical skills. Excellent communicator and quick to grasp any topic.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -60,16 +61,37 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'HTML, CSS, JavaScript (ES6+), Node.js, React, PHP',
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        description: 'MySQL',
+      },
+      {
+        name: 'Design',
+        description: 'Graphic Design, Typography, User Interface Design',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Linux, Server Management, API design, GIT',
+      },
+    ],
+    education: [
+      { 
+        name: 'Rajarata University of Sri Lanka',
+        field: 'B.Sc in Information Technology (2017-Present)',
+        year: '2017-Present',
+      },
+      { 
+        name: 'St. Anthony\'s College Kandy',
+        field: 'G.C.E. A/L (2014-2016)',
+        year: '2014-2016',
+      },
+      { 
+        name: 'Vision International School Kandy',
+        field: 'G.C.E. O/L (2002-2013)',
+        year: '2002-2013',
       },
     ],
   },
