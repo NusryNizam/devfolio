@@ -15,14 +15,6 @@ Some of the features include:
 - Extend and Customize as Needed
 - Blazing Fast 🙄
 
-**[Need help with the template or have suggestions? Reach out on Twitter anytime!](https://twitter.com/rfitzio)**
-
-## Demo
-
-For a live demo of the base template, [click here](https://elastic-meninsky-aa7c74.netlify.app/).
-
-For a live demo of a slightly customized version of the template (my own personal site), [click here](https://rfitz.io).
-
 ## Contents
 
 - [Adding Your Information](#adding-your-information)
