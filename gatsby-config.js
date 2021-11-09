@@ -94,6 +94,7 @@ module.exports = {
         year: '2002-2013',
       },
     ],
+    languages: `English, Tamil, Sinhala`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

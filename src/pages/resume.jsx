@@ -12,21 +12,23 @@ import SectionBlog from '../components/section-blog';
 import SectionExperience from '../components/section-experience';
 import SectionProjects from '../components/section-projects';
 import SectionSkills from '../components/section-skills';
+import SectionLanguages from '../components/section-languages';
 import SectionEducation from '../components/section-education';
 
 const Resume = ({ data }) => {
   const about = get(data, 'site.siteMetadata.profile', false);
   const skills = get(data, 'site.siteMetadata.skills', false);
   const education = get(data, 'site.siteMetadata.education', false);
-
+  const languages = get(data, 'site.siteMetadata.languages', false);
   return (
     <Layout>
       <SEO title="Resume" />
       <Header metadata={data.site.siteMetadata} />
       <h1>This is the resume</h1>
       {about && <SectionProfile about={about} />}
-      {education && education.length && <SectionEducation education={education}></SectionEducation>}
+      {education && education.length && <SectionEducation education={education}/>}
       {skills && skills.length && <SectionSkills skills={skills} />}
+      <SectionLanguages languages={languages}/>
     </Layout>
   );
 };
@@ -63,6 +65,7 @@ export const pageQuery = graphql`
           field
           year
         }
+        languages
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
