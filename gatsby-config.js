@@ -14,35 +14,41 @@ module.exports = {
     github: `https://github.com/NusryNizam`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/nusrynizam/`,
+    dribbble: `https://www.dribbble.com/nusry/`,
     // Content of the About Me section
     about: `As early in my childhood, I remember fiddling with computers. Since then, I have learned a lot about computers despite the formal education. As soon as I finished school, I decided to pursue Information Technology as my major. I enjoyed learning more about topics and areas I did not know much about, specially programming and graphic designing. I enjoy self-learning. Over the course, I came to understand that the computers had much more to do with the world today than in the past. This motivated me to pursue in a never ending curiosity to explore the world of computers and programming.`,
     profile: `Creative designer & web developer who stands out. I’ve got a unique mix of creativity, time management, problem solving and technical skills. Excellent communicator and quick to grasp any topic.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
+    languages: [
+      { 
+        id: '1',
+        lg: 'English, Tamil, Sinhala'
+      }
+    ],
     projects: [
       {
         name: 'ePocket',
-        description:
-          'A personal finance management web application',
-        link: 'https://nusrynizam.github.io/epocket/',
+        description: 'A personal finance management web application',
+        link: 'https://github.com/NusryNizam/epocket',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'youtube-light',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'Watch YouTube without any distractions using this web application',
+        link: 'https://ytlight.netlify.app',
       },
       {
-        name: 'Another Cool Project',
+        name: 'Railway Ticket Reservation System',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Ticket reservation system using C# for group project',
+        link: 'resume',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
+        name: 'Freelance',
+        description: 'Graphic Designer, February 2020 - Present',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
@@ -60,8 +66,7 @@ module.exports = {
     skills: [
       {
         name: 'Languages & Frameworks',
-        description:
-          'HTML, CSS, JavaScript (ES6+), Node.js, React, PHP',
+        description: 'HTML, CSS, JavaScript (ES6+), Node.js, React, PHP',
       },
       {
         name: 'Databases',
@@ -73,28 +78,38 @@ module.exports = {
       },
       {
         name: 'Other',
-        description:
-          'Linux, Server Management, API design, GIT',
+        description: 'Linux, Server Management, API design, GIT',
       },
     ],
     education: [
-      { 
+      {
         name: 'Rajarata University of Sri Lanka',
         field: 'B.Sc in Information Technology (2017-Present)',
         year: '2017-Present',
       },
-      { 
-        name: 'St. Anthony\'s College Kandy',
+      {
+        name: "St. Anthony's College Kandy",
         field: 'G.C.E. A/L (2014-2016)',
         year: '2014-2016',
       },
-      { 
+      {
         name: 'Vision International School Kandy',
         field: 'G.C.E. O/L (2002-2013)',
         year: '2002-2013',
       },
     ],
-    languages: `English, Tamil, Sinhala`,
+    certifications: [
+      {
+        name: 'Responsive Web Design',
+        description: 'FreeCodeCamp · Issued January 2019',
+        link: 'https://www.freecodecamp.org/certification/nusrynizam/responsive-web-design',
+      },
+      {
+        name: 'Foundations of User Experience (UX) Design',
+        description: 'Coursera · Issued 2021',
+        link: 'https://www.coursera.org/account/accomplishments/certificate/EQ7DQ6XPXV25',
+      },
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

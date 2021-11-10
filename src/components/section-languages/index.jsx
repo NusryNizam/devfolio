@@ -1,13 +1,22 @@
 import React from 'react';
 
 import Section from '../section';
+import SummaryItem from '../summary-item';
 
-const SectionLanguages = ({ lang }) => {
+
+const SectionLanguages = ({ languages }) => {
   return (
     <Section title="Languages">
-      <div className="mb-6">
-        <p>{lang}</p>
-      </div>
+      {/* <div className="mb-6">
+        <p>{languages}</p>
+      </div> */}
+
+      { languages.map( (language) => (
+        <SummaryItem
+          key={language.id}
+          description={language.lg}
+        />
+      ))}
     </Section>
   );
 };

@@ -11,7 +11,7 @@ const SectionEducation = ({ education }) => {
           key={field.name}
           name={field.name}
           description={field.field}
-        //   description={field.year}
+          //   description={field.year}
         />
       ))}
     </Section>

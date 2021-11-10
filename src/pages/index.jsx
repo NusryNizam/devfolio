@@ -26,9 +26,9 @@ const Index = ({ data }) => {
       {about && <SectionAbout about={about} />}
       {/* {projects && projects.length && <SectionProjects projects={projects} />} */}
       {!noBlog && <SectionBlog posts={posts} />}
-      {experience && experience.length && (
+      {/* {experience && experience.length && (
         <SectionExperience experience={experience} />
-      )}
+      )} */}
       {skills && skills.length && <SectionSkills skills={skills} />}
     </Layout>
   );

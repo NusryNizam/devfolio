@@ -7,7 +7,7 @@ const SectionExperience = ({ experience }) => {
   if (!experience.length) return null;
 
   return (
-    <Section title="Experience">
+    <Section title="Certifications">
       {experience.map((item) => (
         <SummaryItem
           key={item.name}
