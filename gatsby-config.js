@@ -20,10 +20,10 @@ module.exports = {
     profile: `Creative designer & web developer who stands out. I’ve got a unique mix of creativity, time management, problem solving and technical skills. Excellent communicator and quick to grasp any topic.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     languages: [
-      { 
+      {
         id: '1',
-        lg: 'English, Tamil, Sinhala'
-      }
+        lg: 'English, Tamil, Sinhala',
+      },
     ],
     projects: [
       {
@@ -39,8 +39,7 @@ module.exports = {
       },
       {
         name: 'Railway Ticket Reservation System',
-        description:
-          'Ticket reservation system using C# for group project',
+        description: 'Ticket reservation system using C# for group project',
         link: 'resume',
       },
     ],
@@ -102,12 +101,14 @@ module.exports = {
       {
         name: 'Responsive Web Design',
         description: 'FreeCodeCamp · Issued January 2019',
-        link: 'https://www.freecodecamp.org/certification/nusrynizam/responsive-web-design',
+        link:
+          'https://www.freecodecamp.org/certification/nusrynizam/responsive-web-design',
       },
       {
         name: 'Foundations of User Experience (UX) Design',
         description: 'Coursera · Issued 2021',
-        link: 'https://www.coursera.org/account/accomplishments/certificate/EQ7DQ6XPXV25',
+        link:
+          'https://www.coursera.org/account/accomplishments/certificate/EQ7DQ6XPXV25',
       },
     ],
   },

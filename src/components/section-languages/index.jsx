@@ -3,7 +3,6 @@ import React from 'react';
 import Section from '../section';
 import SummaryItem from '../summary-item';
 
-
 const SectionLanguages = ({ languages }) => {
   return (
     <Section title="Languages">
@@ -11,11 +10,8 @@ const SectionLanguages = ({ languages }) => {
         <p>{languages}</p>
       </div> */}
 
-      { languages.map( (language) => (
-        <SummaryItem
-          key={language.id}
-          description={language.lg}
-        />
+      {languages.map((language) => (
+        <SummaryItem key={language.id} description={language.lg} />
       ))}
     </Section>
   );

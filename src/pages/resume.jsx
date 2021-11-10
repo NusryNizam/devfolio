@@ -2,13 +2,10 @@ import { graphql } from 'gatsby';
 import get from 'lodash/get';
 import React from 'react';
 
-import BlogPosts from '../components/blog-posts';
 import Header from '../components/header';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import NotFound from '../pages/404';
 import SectionProfile from '../components/section-profile';
-import SectionBlog from '../components/section-blog';
 import SectionExperience from '../components/section-experience';
 import SectionProjects from '../components/section-projects';
 import SectionSkills from '../components/section-skills';
@@ -24,7 +21,7 @@ const Resume = ({ data }) => {
   const certifications = get(data, 'site.siteMetadata.certifications', false);
 
   const classes = {
-    btn: 'bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'
+    btn: 'bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded',
   };
 
   return (
@@ -34,12 +31,15 @@ const Resume = ({ data }) => {
       {about && <SectionProfile about={about} />}
       {education && education.length && (
         <SectionEducation education={education} />
-        )}
+      )}
       {skills && skills.length && <SectionSkills skills={skills} />}
-      <SectionExperience experience={certifications}/>
+      <SectionExperience experience={certifications} />
       {projects && projects.length && <SectionProjects projects={projects} />}
       <SectionLanguages languages={languages} />
-      <br /><a href="https://drive.google.com" className={classes.btn}>Open as PDF</a>
+      <br />
+      <a href="https://drive.google.com" className={classes.btn}>
+        Open as PDF
+      </a>
     </Layout>
   );
 };
