@@ -7,6 +7,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import SectionProfile from '../components/section-profile';
 import SectionExperience from '../components/section-experience';
+import SectionCertification from '../components/section-certification';
 import SectionProjects from '../components/section-projects';
 import SectionSkills from '../components/section-skills';
 import SectionLanguages from '../components/section-languages';
@@ -33,11 +34,14 @@ const Resume = ({ data }) => {
         <SectionEducation education={education} />
       )}
       {skills && skills.length && <SectionSkills skills={skills} />}
-      <SectionExperience experience={certifications} />
+      <SectionCertification experience={certifications} />
       {projects && projects.length && <SectionProjects projects={projects} />}
       <SectionLanguages languages={languages} />
       <br />
-      <a href="https://drive.google.com" className={classes.btn}>
+      <a
+        href="https://drive.google.com/file/d/1kjHmbJatgkqi_o-4MlsijiEQbs6sJO92/view?usp=sharing"
+        className={classes.btn}
+      >
         Open as PDF
       </a>
     </Layout>

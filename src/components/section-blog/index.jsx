@@ -12,8 +12,8 @@ const SectionBlog = ({ posts }) => {
           key={post.node.fields.slug}
           name={post.node.frontmatter.title}
           description={post.node.frontmatter.description}
-          link={post.node.fields.slug}
-          internal
+          // link={post.node.fields.slug}
+          // internal
         />
       ))}
       {/* {posts.length >= 5 && (

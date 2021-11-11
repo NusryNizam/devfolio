@@ -16,7 +16,7 @@ module.exports = {
     linkedin: `https://www.linkedin.com/in/nusrynizam/`,
     dribbble: `https://www.dribbble.com/nusry/`,
     // Content of the About Me section
-    about: `As early in my childhood, I remember fiddling with computers. Since then, I have learned a lot about computers despite the formal education. As soon as I finished school, I decided to pursue Information Technology as my major. I enjoyed learning more about topics and areas I did not know much about, specially programming and graphic designing. I enjoy self-learning. Over the course, I came to understand that the computers had much more to do with the world today than in the past. This motivated me to pursue in a never ending curiosity to explore the world of computers and programming.`,
+    about: `As early in my childhood, I remember fiddling with computers. Since then, I have learned a lot about computers. As soon as I finished school, I decided to pursue Information Technology as my major. I enjoyed learning more about topics and areas I did not know much about, especially programming and graphic designing. Over the course, I came to understand that the computers had much more to do with the world today than in the past. This motivated me to pursue in a never ending curiosity to explore the world of computers and programming.`,
     profile: `Creative designer & web developer who stands out. I’ve got a unique mix of creativity, time management, problem solving and technical skills. Excellent communicator and quick to grasp any topic.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     languages: [
@@ -29,7 +29,7 @@ module.exports = {
       {
         name: 'ePocket',
         description: 'A personal finance management web application',
-        link: 'https://github.com/NusryNizam/epocket',
+        link: 'https://epocketweb.000webhostapp.com/',
       },
       {
         name: 'youtube-light',
@@ -42,23 +42,37 @@ module.exports = {
         description: 'Ticket reservation system using C# for group project',
         link: 'resume',
       },
+      {
+        name: 'Body Fantasy',
+        description: 'A website for a cosmetic store built for a group project',
+        link: 'http://bodyfantasy.infinityfreeapp.com/',
+      },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Freelance',
-        description: 'Graphic Designer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        icon: '💪',
+        name: 'Strength',
+        description:
+          'Ability to self learn ⦁ Quick to grasp topics ⦁ Motivated ⦁ IT Graduate',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        icon: '📉',
+        name: 'Weaknesses',
+        description:
+          'Not satisfied until a work is done ⦁ Perfectionist ⦁ Inadequate social media presence',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        icon: '🎯',
+        name: 'Opportunities',
+        description:
+          'Further study options after Bachelors ⦁ Job opportunities booming in IT sector ⦁ Expansion of IT industry ⦁ Availability of online education',
+      },
+      {
+        icon: '⛔',
+        name: 'Threats',
+        description:
+          "Competition from fellow developers ⦁ Rapidly evolving technology ⦁ Country's slower adaptation to IT",
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -106,9 +120,15 @@ module.exports = {
       },
       {
         name: 'Foundations of User Experience (UX) Design',
-        description: 'Coursera · Issued 2021',
+        description: 'Coursera · Issued May 2021',
         link:
           'https://www.coursera.org/account/accomplishments/certificate/EQ7DQ6XPXV25',
+      },
+      {
+        name: 'Technical Support Fundamentals',
+        description: 'Coursera · Issued July 2021',
+        link:
+          'https://www.coursera.org/account/accomplishments/certificate/VHE3W8XCZH2T',
       },
     ],
   },
