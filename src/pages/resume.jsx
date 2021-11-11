@@ -71,9 +71,9 @@ export const pageQuery = graphql`
           link
         }
         experience {
+          icon
           name
           description
-          link
         }
         skills {
           name
