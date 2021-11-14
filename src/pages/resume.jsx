@@ -69,6 +69,7 @@ export const pageQuery = graphql`
           name
           description
           link
+          img
         }
         experience {
           icon
