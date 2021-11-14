@@ -15,7 +15,13 @@ const classes = {
   item: 'inline list-none pr-4',
   link:
     'inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black',
+  dot: 'inline text-gray-600',
+  samelink: 'inline-block py-2 font-semibold text-xs text-black hover:text-black'
 };
+
+const isActive = ({ isCurrent }) => {
+  return isCurrent ? { className: classes.samelink } : { className: classes.link}
+}
 
 const Header = ({ metadata = {}, noBlog = false }) => {
   const twitter = get(metadata, 'author', false);
@@ -38,9 +44,21 @@ const Header = ({ metadata = {}, noBlog = false }) => {
         <ul className={classes.list}>
           {
             <li className={classes.item}>
-              <Link className={classes.link} to="/resume">
+              <Link className={classes.link} to="/"  getProps={isActive}>
+                Home
+              </Link>
+            </li>
+          }
+          {
+            <li className={classes.item}>
+              <Link to="/resume" getProps={isActive}>
                 Resume
               </Link>
+            </li>
+          }
+          {
+            <li className={classes.item, classes.dot}>
+              ⦁ 
             </li>
           }
           {twitter && (
