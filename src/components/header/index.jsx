@@ -16,12 +16,15 @@ const classes = {
   link:
     'inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black',
   dot: 'inline text-gray-600',
-  samelink: 'inline-block py-2 font-semibold text-xs text-black hover:text-black'
+  samelink:
+    'inline-block py-2 font-semibold text-xs text-black hover:text-black',
 };
 
 const isActive = ({ isCurrent }) => {
-  return isCurrent ? { className: classes.samelink } : { className: classes.link}
-}
+  return isCurrent
+    ? { className: classes.samelink }
+    : { className: classes.link };
+};
 
 const Header = ({ metadata = {}, noBlog = false }) => {
   const twitter = get(metadata, 'author', false);
@@ -44,7 +47,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
         <ul className={classes.list}>
           {
             <li className={classes.item}>
-              <Link className={classes.link} to="/"  getProps={isActive}>
+              <Link className={classes.link} to="/" getProps={isActive}>
                 Home
               </Link>
             </li>
@@ -56,17 +59,14 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </Link>
             </li>
           }
-          {
-            <li className={classes.item, classes.dot}>
-              ⦁ 
-            </li>
-          }
+          {<li className={(classes.item, classes.dot)}>⦁ </li>}
           {twitter && (
             <li className={classes.item}>
               <a
                 className={classes.link}
                 href={`https://twitter.com/${twitter}`}
-                target='_blank' rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
               >
                 Twitter
               </a>
@@ -74,14 +74,24 @@ const Header = ({ metadata = {}, noBlog = false }) => {
           )}
           {github && (
             <li className={classes.item}>
-              <a className={classes.link} href={github} target='_blank' rel="noreferrer">
+              <a
+                className={classes.link}
+                href={github}
+                target="_blank"
+                rel="noreferrer"
+              >
                 GitHub
               </a>
             </li>
           )}
           {linkedin && (
             <li className={classes.item}>
-              <a className={classes.link} href={linkedin} target='_blank' rel="noreferrer">
+              <a
+                className={classes.link}
+                href={linkedin}
+                target="_blank"
+                rel="noreferrer"
+              >
                 LinkedIn
               </a>
             </li>

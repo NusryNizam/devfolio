@@ -30,14 +30,16 @@ module.exports = {
         name: 'ePocket',
         description: 'A personal finance management web application',
         link: 'https://epocketweb.000webhostapp.com/',
-        img: 'https://raw.githubusercontent.com/NusryNizam/epocket/main/assets/readme.png',
+        img:
+          'https://raw.githubusercontent.com/NusryNizam/epocket/main/assets/readme.png',
       },
       {
         name: 'youtube-light',
         description:
           'Watch YouTube without any distractions using this web application',
         link: 'https://ytlight.netlify.app',
-        img: 'https://user-images.githubusercontent.com/24385617/141070574-942cd1ba-7bea-420a-b94e-4d18df1a90a9.png',
+        img:
+          'https://user-images.githubusercontent.com/24385617/141070574-942cd1ba-7bea-420a-b94e-4d18df1a90a9.png',
       },
       {
         name: 'Railway Ticket Reservation System',
@@ -49,7 +51,8 @@ module.exports = {
         name: 'Body Fantasy',
         description: 'A website for a cosmetic store built for a group project',
         link: 'http://bodyfantasy.infinityfreeapp.com/',
-        img: 'https://user-images.githubusercontent.com/24385617/141671336-0db266c4-b4e2-492b-9f99-7c99d9a05d3b.png',
+        img:
+          'https://user-images.githubusercontent.com/24385617/141671336-0db266c4-b4e2-492b-9f99-7c99d9a05d3b.png',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.

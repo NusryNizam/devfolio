@@ -16,7 +16,7 @@ const NotFoundPage = () => (
     <p>
       You just hit a route that doesn't exist.{' '}
       <Link className={classes.link} to="/">
-        Return to safety
+        Return to homepage
       </Link>
       .
     </p>
